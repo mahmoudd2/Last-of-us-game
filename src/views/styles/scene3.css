@@ -1,0 +1,290 @@
+.root4{
+/*    -fx-background-color: #0399BD; */
+    -fx-background-image: url("./../images/scene3/battlefield_background.jpeg");
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+}
+
+.grid{
+    -fx-border-color: black;
+    -fx-border-style: solid;
+    -fx-border-width: 2;
+    -fx-background-color: rgba(255, 255, 255, 0.5);
+/*    -fx-background-color: linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(200, 100, 100, 0.5)); */
+}
+
+.cell{
+    -fx-border-color: black;
+    -fx-border-style: solid;
+    -fx-border-width: 1;
+}
+
+.bottomPaneButton {
+    -fx-min-width: 70px;
+    -fx-min-height: 40px
+}
+
+.key-button {
+    -fx-min-height: 30px;
+    -fx-min-width: 30px;
+}
+
+.up-key {
+    -fx-background-image: url("./../images/scene3/up_arrow.png");
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+}
+
+.down-key {
+    -fx-background-image: url("./../images/scene3/up_arrow.png");
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+    -fx-rotate: 180;
+}
+
+.left-key {
+    -fx-background-image: url("./../images/scene3/up_arrow.png");
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+    -fx-rotate: 270;
+}
+
+.right-key {
+    -fx-background-image: url("./../images/scene3/up_arrow.png");
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+    -fx-rotate: 90;
+}
+
+.heroContainer {
+    -fx-border-color: black;
+    -fx-border-style: solid;
+    -fx-border-width: 2;
+    -fx-background-color: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(255,255,255,0.5));
+}
+
+
+/* HERO IMAGES <==================> HERO IMAGES */
+.heroImage {
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+    -fx-border-color: black;
+    -fx-border-style: hidden hidden solid hidden;
+    -fx-border-width: 2;
+}
+
+.heroImage1 {
+    -fx-background-image: url("./../images/scene3/fighters/1.jpeg");
+}
+
+.heroImage2 {
+    -fx-background-image: url("./../images/scene3/medic/1.jpeg");
+}
+
+.heroImage3 {
+    -fx-background-image: url("./../images/scene3/explorer/5.jpeg");
+}
+
+.heroImage4 {
+    -fx-background-image: url("./../images/scene3/explorer/4.jpeg");
+}
+
+.heroImage5 {
+    -fx-background-image: url("./../images/scene3/explorer/1.jpeg");
+}
+
+.heroImage6 {
+    -fx-background-image: url("./../images/scene3/medic/5.jpeg");
+}
+
+.heroImage7 {
+    -fx-background-image: url("./../images/scene3/fighters/2.jpeg");
+}
+
+.heroImage8 {
+    -fx-background-image: url("./../images/scene3/medic/4.jpeg");
+}
+
+.mysteryImage {
+    -fx-background-image: url("./../images/scene3/mystery_guy.jpg");
+}
+
+.heroText {
+/*    -fx-font-size: 16px;*/
+    -fx-font-weight: bold;
+}
+
+.targetContainer {
+    -fx-border-color: black;
+    -fx-border-style: solid;
+    -fx-border-width: 2px;
+    -fx-background-color: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(255,255,255,0.5));
+}
+
+.targetImage {
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+    -fx-border-color: black;
+    -fx-border-style: hidden hidden solid hidden;
+    -fx-border-width: 2px;
+}
+
+.targetImageZombie1 {
+    -fx-background-image: url("./../images/scene3/zombie/1.jpeg");
+}
+
+.targetImageZombie2 {
+    -fx-background-image: url("./../images/scene3/zombie/3.jpeg");
+}
+
+.targetImageZombie3 {
+    -fx-background-image: url("./../images/scene3/zombie/4.jpg");
+}
+
+.targetImageVaccine {
+    -fx-background-image: url("./../images/scene3/vaccine/2.jpeg");
+}
+
+.targetImageSupply {
+    -fx-background-image: url("./../images/scene3/supply/2.jpeg");
+}
+
+.targetImageEmpty {
+    -fx-background-image: url("./../images/scene3/empty/1.jpeg");
+}
+
+.targetImageTrap {
+    -fx-background-image: url("./../images/scene3/trap/3.jpeg");
+}
+
+.targetImageInvisible {
+    -fx-background-image: url("./../images/scene3/mystery_guy.jpg");
+}
+
+.targetText {
+/*    -fx-font-size: 16px; */
+    -fx-font-weight: bold;
+}
+
+.topPanelContainer{
+    -fx-font-size: 18;
+}
+
+.alertBox {
+    -fx-background-color: linear-gradient(to top, rgba(218, 19, 58, 0.8), rgba(209, 19, 3, 0.8));
+/*    -fx-background-radius: 15px;
+    -fx-font-size: 18;*/
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+
+
+/*    -fx-border-color: black;
+    -fx-border-style: solid;
+    -fx-border-width: 2px;
+    -fx-border-radius: 15px; */
+}
+
+.alertXButton {
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+    -fx-background-color: transparent;
+    -fx-background-image: url("./../images/scene3/close_button.png");
+}
+
+
+
+/* ICONS OVER HERE !!!!!!!!!!*/
+
+.heroIcon {
+    -fx-background-image: url("./../images/scene3/icons/hero.png");
+}
+
+.zombieIcon {
+    -fx-background-image: url("./../images/scene3/icons/zombie.png");
+}
+
+.supplyIcon {
+    -fx-background-image: url("./../images/scene3/icons/supply.png");
+}
+
+.vaccineIcon {
+    -fx-background-image: url("./../images/scene3/icons/vaccine.png");
+}
+
+.invisibleIcon {
+    -fx-background-image: url("./../images/scene3/icons/invisible.png");
+}
+
+.emptyIcon {
+    -fx-background-color: transparent;
+}
+
+.icon {
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+}
+
+.heroes-alive-details {
+/*    -fx-font-size: 12px;*/
+    -fx-text-fill: white;
+}
+
+.heroes-alive-container {
+    -fx-background-color: black;
+    -fx-border-color: black;
+/*    -fx-border-radius: 25px;*/
+    -fx-border-style: solid;
+    -fx-border-width: 3px;
+}
+
+.currentHeroCell {
+    -fx-effect: dropshadow(three-pass-box, #05AB4E, 10, 0.6, 0.5, 0.5);
+}
+.hoveredOverCell {
+    -fx-effect: dropshadow(three-pass-box, #E59E22, 10, 0.6, 0.5, 0.5);
+}
+.currentTargetCell {
+    -fx-effect: dropshadow(three-pass-box, #00F7F7, 10, 0.6, 0.5, 0.5);
+}
+
+.attackButtonIcon {
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+    -fx-background-image: url("./../images/scene3/icons/attack.png");
+    -fx-background-color: linear-gradient(to top, rgba(183,0,0,0.7), rgba(155,0,0,0.7));
+}
+
+.healButtonIcon {
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+    -fx-background-image: url("./../images/scene3/icons/heal.jpeg");
+    -fx-background-color: radial-gradient(center 50% 50%, radius 100%, lightgreen, green)
+}
+
+.illuminateButtonIcon {
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+    -fx-background-image: url("./../images/scene3/icons/illuminate.png");
+    -fx-background-color: radial-gradient(center 50% 50%, radius 100%, cyan, lightblue)
+}
+
+.cureButtonIcon {
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+    -fx-background-image: url("./../images/scene3/icons/cure.jpg");
+    -fx-background-color: transparent;
+}
+
+.berserkButtonIcon {
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+    -fx-background-image: url("./../images/scene3/icons/berserk.png");
+    -fx-background-color: radial-gradient(center 50% 50%, radius 100%, orange, red)
+}
+
+.normalSpecialButtonIcon {
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+    -fx-background-image: url("./../images/scene3/icons/default_special.jpg");
+    -fx-background-color: transparent;
+}

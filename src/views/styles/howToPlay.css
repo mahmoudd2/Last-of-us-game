@@ -1,0 +1,43 @@
+.root2 {
+    -fx-background-image: url("./../images/zombie_apocalypse_background.jpg");
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+}
+
+.instructions-title {
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(200, 200, 200, 0.8), 1.5, 1, 0, 0);
+/*    -fx-font-size: 48px;*/
+}
+
+.instructions-text {
+    -fx-text-fill: rgb(150,150,150);
+/*    -fx-font-size: 20px; */
+}
+
+.press-any-key {
+    -fx-text-fill: #123456;
+/*    -fx-font-size: 36px; */
+}
+
+.arrow {
+    -fx-background-image: url("./../images/scene3/up_arrow.png");
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+}
+
+.toControls {
+    -fx-rotate: 90;
+}
+
+.toObjective {
+    -fx-rotate: 270;
+}
+
+.controls-page-background {
+    -fx-background-image: url("./../images/zombie_apocalypse_background_mirrored.jpg");
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+}
